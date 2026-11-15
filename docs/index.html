@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evren: a blink comparator for SPHEREx</title>
+<meta name="description" content="Flip through NASA SPHEREx infrared images of the same patch of sky and see what moved. Evren found Pluto in SPHEREx data on its own.">
+<meta property="og:title" content="Evren: a blink comparator for NASA SPHEREx">
+<meta property="og:description" content="Tombaugh's Pluto method, run on a 2025 space telescope.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%230b0d10'/%3E%3Ccircle cx='16' cy='16' r='4' fill='%23ff5a1f'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="mark" aria-hidden="true"></span>
+    <span class="name">Evren</span>
+    <span class="tag">A blink comparator for NASA SPHEREx</span>
+  </div>
+  <nav><a href="#about">How it works</a></nav>
+</header>
+
+<main class="layout">
+  <section class="viewer">
+    <div class="canvas-wrap">
+      <canvas id="sky" width="600" height="600" aria-label="SPHEREx frame"></canvas>
+      <div id="status" class="status"></div>
+    </div>
+    <div class="timeline">
+      <svg id="ticks" viewBox="0 0 600 46" preserveAspectRatio="none" aria-hidden="true"></svg>
+      <input id="slider" type="range" min="0" max="0" value="0" aria-label="Frame">
+    </div>
+    <div class="transport">
+      <button id="prev" title="Previous frame (left arrow)">Prev</button>
+      <button id="play" title="Play through time (space)">Play</button>
+      <button id="next" title="Next frame (right arrow)">Next</button>
+      <span class="sep" aria-hidden="true"></span>
+      <button id="blink" title="Flip between two dates, like Tombaugh's blink comparator (B)">Blink</button>
+      <button id="setb" title="Use the frame on screen as the second date">Set B</button>
+      <label class="speed">Speed <input id="speed" type="range" min="1" max="12" value="4"></label>
+    </div>
+    <p id="blinkinfo" class="blinkinfo"></p>
+  </section>
+
+  <aside class="panel">
+    <label class="field">Field
+      <select id="field"></select>
+    </label>
+    <p id="fieldnote" class="note"></p>
+
+    <div class="views" role="tablist">
+      <button data-mode="frames" class="on">Frames</button>
+      <button data-mode="changes">Changes</button>
+      <button data-mode="static">Static sky</button>
+    </div>
+    <p id="modehelp" class="help"></p>
+
+    <dl id="info" class="info"></dl>
+
+    <div class="toggles">
+      <label><input id="showKnown" type="checkbox" checked> Known objects</label>
+      <label><input id="showCand" type="checkbox" checked> Candidates</label>
+      <label><input id="rawPix" type="checkbox"> Raw pixels</label>
+    </div>
+
+    <h2>What moved here</h2>
+    <ol id="findings" class="findings"></ol>
+    <div id="strip" class="strip"></div>
+  </aside>
+</main>
+
+<section id="about" class="about">
+  <h2>How it works</h2>
+  <p>In 1930 Clyde Tombaugh found Pluto by flipping between two photographs of the same stars taken days apart. Stars stay put. Anything that jumps is moving. Evren does the same with SPHEREx, the NASA space telescope that maps the whole sky in 102 infrared colors every six months.</p>
+  <ol>
+    <li>Find every SPHEREx image that covers one patch of sky.</li>
+    <li>Read only the pixels needed and put every image on one north up grid, using each image's own sky coordinates.</li>
+    <li>Take the median of all frames as the static sky and subtract it, so only change is left.</li>
+    <li>Link spots that show up in several exposures of the same visit. A cosmic ray hits once, an asteroid stays.</li>
+    <li>Check every spot against all known asteroids, comets and dwarf planets. A match proves the method works. No match makes it a candidate worth a second look.</li>
+  </ol>
+  <p>Reading the views: <b>Frames</b> are the images as SPHEREx took them. <b>Changes</b> shows each frame minus the static sky, so white means something new appeared and black means something disappeared. <b>Static sky</b> is what never changes. <b>Blink</b> flips between two dates, the way Tombaugh did.</p>
+  <p>Keys: left and right arrows step, space plays, B blinks.</p>
+  <p class="credits">SPHEREx images: NASA, JPL Caltech, served by the NASA IPAC Infrared Science Archive (IRSA). Known small bodies: IMCCE SkyBoT. Made by team Evren for the 2026 NASA Space Apps Challenge, Planet X and SPHEREx.</p>
+</section>
+
+<script src="app.js?v=4"></script>
+</body>
+</html>

@@ -1,0 +1,1187 @@
+{
+ "id": "ecl160",
+ "name": "Ecliptic field in Leo",
+ "note": "A patch of the ecliptic, the plane where most asteroids travel. 47 SPHEREx exposures from May 2025 to May 2026.",
+ "ra": 161.54,
+ "dec": 7.82,
+ "band": "D1",
+ "size_px": 117,
+ "pix_arcsec": 6.15,
+ "built": "2026-11-15T07:05:49Z",
+ "frames": [
+  {
+   "i": 0,
+   "file": "f000.png",
+   "resid": "r000.png",
+   "t": "2025-05-02T13:40:43Z",
+   "mjd": 60797.569947,
+   "obs_id": "2025W18_2B_0161_1",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 1,
+   "file": "f001.png",
+   "resid": "r001.png",
+   "t": "2025-05-02T13:42:52Z",
+   "mjd": 60797.571439,
+   "obs_id": "2025W18_2B_0161_2",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 2,
+   "file": "f002.png",
+   "resid": "r002.png",
+   "t": "2025-05-02T13:45:01Z",
+   "mjd": 60797.572932,
+   "obs_id": "2025W18_2B_0161_3",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 3,
+   "file": "f003.png",
+   "resid": "r003.png",
+   "t": "2025-05-02T13:47:10Z",
+   "mjd": 60797.574424,
+   "obs_id": "2025W18_2B_0161_4",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 4,
+   "file": "f004.png",
+   "resid": "r004.png",
+   "t": "2025-05-02T15:18:42Z",
+   "mjd": 60797.637987,
+   "obs_id": "2025W18_2B_0171_1",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 5,
+   "file": "f005.png",
+   "resid": "r005.png",
+   "t": "2025-05-02T15:20:50Z",
+   "mjd": 60797.639479,
+   "obs_id": "2025W18_2B_0171_2",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 6,
+   "file": "f006.png",
+   "resid": "r006.png",
+   "t": "2025-05-02T15:22:59Z",
+   "mjd": 60797.640971,
+   "obs_id": "2025W18_2B_0171_3",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 7,
+   "file": "f007.png",
+   "resid": "r007.png",
+   "t": "2025-05-02T15:25:08Z",
+   "mjd": 60797.642464,
+   "obs_id": "2025W18_2B_0171_4",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 8,
+   "file": "f008.png",
+   "resid": "r008.png",
+   "t": "2025-05-29T06:28:55Z",
+   "mjd": 60824.270091,
+   "obs_id": "2025W22_1B_0563_1",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 9,
+   "file": "f009.png",
+   "resid": "r009.png",
+   "t": "2025-05-29T06:31:04Z",
+   "mjd": 60824.271583,
+   "obs_id": "2025W22_1B_0563_2",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 10,
+   "file": "f010.png",
+   "resid": "r010.png",
+   "t": "2025-05-29T06:33:13Z",
+   "mjd": 60824.273075,
+   "obs_id": "2025W22_1B_0563_3",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 11,
+   "file": "f011.png",
+   "resid": "r011.png",
+   "t": "2025-05-29T06:35:22Z",
+   "mjd": 60824.274568,
+   "obs_id": "2025W22_1B_0563_4",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 12,
+   "file": "f012.png",
+   "resid": "r012.png",
+   "t": "2025-06-06T05:14:28Z",
+   "mjd": 60832.218384,
+   "obs_id": "2025W23_2B_0146_1",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 13,
+   "file": "f013.png",
+   "resid": "r013.png",
+   "t": "2025-06-06T05:16:37Z",
+   "mjd": 60832.219876,
+   "obs_id": "2025W23_2B_0146_2",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 14,
+   "file": "f014.png",
+   "resid": "r014.png",
+   "t": "2025-06-06T10:08:11Z",
+   "mjd": 60832.42236,
+   "obs_id": "2025W23_2B_0192_1",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 15,
+   "file": "f015.png",
+   "resid": "r015.png",
+   "t": "2025-06-06T10:10:20Z",
+   "mjd": 60832.423852,
+   "obs_id": "2025W23_2B_0192_2",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 16,
+   "file": "f016.png",
+   "resid": "r016.png",
+   "t": "2025-06-06T15:03:58Z",
+   "mjd": 60832.627758,
+   "obs_id": "2025W23_2B_0237_2",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 17,
+   "file": "f017.png",
+   "resid": "r017.png",
+   "t": "2025-06-06T16:39:09Z",
+   "mjd": 60832.693861,
+   "obs_id": "2025W23_2B_0249_1",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 18,
+   "file": "f018.png",
+   "resid": "r018.png",
+   "t": "2025-06-07T23:37:39Z",
+   "mjd": 60833.984483,
+   "obs_id": "2025W23_2B_0530_1",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 19,
+   "file": "f019.png",
+   "resid": "r019.png",
+   "t": "2025-11-26T14:23:01Z",
+   "mjd": 61005.599328,
+   "obs_id": "2025W48_1A_0556_1",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 0.997,
+   "noisy": false
+  },
+  {
+   "i": 20,
+   "file": "f020.png",
+   "resid": "r020.png",
+   "t": "2025-11-26T14:25:10Z",
+   "mjd": 61005.60082,
+   "obs_id": "2025W48_1A_0556_2",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 21,
+   "file": "f021.png",
+   "resid": "r021.png",
+   "t": "2025-11-26T14:27:19Z",
+   "mjd": 61005.602312,
+   "obs_id": "2025W48_1A_0556_3",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 22,
+   "file": "f022.png",
+   "resid": "r022.png",
+   "t": "2025-11-26T14:29:28Z",
+   "mjd": 61005.603805,
+   "obs_id": "2025W48_1A_0556_4",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 23,
+   "file": "f023.png",
+   "resid": "r023.png",
+   "t": "2025-11-26T16:00:26Z",
+   "mjd": 61005.666976,
+   "obs_id": "2025W48_1A_0571_1",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 24,
+   "file": "f024.png",
+   "resid": "r024.png",
+   "t": "2025-11-27T01:44:03Z",
+   "mjd": 61006.072266,
+   "obs_id": "2025W48_1A_0657_1",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 25,
+   "file": "f025.png",
+   "resid": "r025.png",
+   "t": "2025-11-27T01:46:12Z",
+   "mjd": 61006.073758,
+   "obs_id": "2025W48_1A_0657_2",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 26,
+   "file": "f026.png",
+   "resid": "r026.png",
+   "t": "2025-11-27T01:48:21Z",
+   "mjd": 61006.07525,
+   "obs_id": "2025W48_1A_0657_3",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 27,
+   "file": "f027.png",
+   "resid": "r027.png",
+   "t": "2025-11-27T01:50:30Z",
+   "mjd": 61006.076742,
+   "obs_id": "2025W48_1A_0657_4",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 28,
+   "file": "f028.png",
+   "resid": "r028.png",
+   "t": "2025-11-28T08:42:18Z",
+   "mjd": 61007.362711,
+   "obs_id": "2025W48_2A_0196_2",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 29,
+   "file": "f029.png",
+   "resid": "r029.png",
+   "t": "2025-11-28T08:44:27Z",
+   "mjd": 61007.364203,
+   "obs_id": "2025W48_2A_0196_3",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 30,
+   "file": "f030.png",
+   "resid": "r030.png",
+   "t": "2025-11-28T08:46:36Z",
+   "mjd": 61007.365696,
+   "obs_id": "2025W48_2A_0196_4",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 31,
+   "file": "f031.png",
+   "resid": "r031.png",
+   "t": "2025-11-28T18:31:57Z",
+   "mjd": 61007.772193,
+   "obs_id": "2025W48_2A_0287_1",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 32,
+   "file": "f032.png",
+   "resid": "r032.png",
+   "t": "2025-11-28T18:34:06Z",
+   "mjd": 61007.773685,
+   "obs_id": "2025W48_2A_0287_2",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 33,
+   "file": "f033.png",
+   "resid": "r033.png",
+   "t": "2025-11-28T18:36:15Z",
+   "mjd": 61007.775178,
+   "obs_id": "2025W48_2A_0287_3",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 34,
+   "file": "f034.png",
+   "resid": "r034.png",
+   "t": "2025-11-28T18:38:24Z",
+   "mjd": 61007.77667,
+   "obs_id": "2025W48_2A_0287_4",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 35,
+   "file": "f035.png",
+   "resid": "r035.png",
+   "t": "2025-11-29T23:47:32Z",
+   "mjd": 61008.991348,
+   "obs_id": "2025W48_2A_0569_1",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 36,
+   "file": "f036.png",
+   "resid": "r036.png",
+   "t": "2025-11-29T23:49:41Z",
+   "mjd": 61008.99284,
+   "obs_id": "2025W48_2A_0569_2",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 37,
+   "file": "f037.png",
+   "resid": "r037.png",
+   "t": "2025-11-30T04:41:17Z",
+   "mjd": 61009.195342,
+   "obs_id": "2025W48_2A_0619_1",
+   "collection": "spherex_dr1",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 38,
+   "file": "f038.png",
+   "resid": "r038.png",
+   "t": "2026-05-17T07:55:14Z",
+   "mjd": 61177.330024,
+   "obs_id": "2026W20_2A_0445_1",
+   "collection": "spherex_qr3",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 0.951,
+   "noisy": false
+  },
+  {
+   "i": 39,
+   "file": "f039.png",
+   "resid": "r039.png",
+   "t": "2026-05-17T07:57:22Z",
+   "mjd": 61177.331516,
+   "obs_id": "2026W20_2A_0445_2",
+   "collection": "spherex_qr3",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 40,
+   "file": "f040.png",
+   "resid": "r040.png",
+   "t": "2026-05-17T07:59:31Z",
+   "mjd": 61177.333008,
+   "obs_id": "2026W20_2A_0445_3",
+   "collection": "spherex_qr3",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 41,
+   "file": "f041.png",
+   "resid": "r041.png",
+   "t": "2026-05-17T08:01:40Z",
+   "mjd": 61177.3345,
+   "obs_id": "2026W20_2A_0445_4",
+   "collection": "spherex_qr3",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 42,
+   "file": "f042.png",
+   "resid": "r042.png",
+   "t": "2026-05-21T01:33:26Z",
+   "mjd": 61181.064889,
+   "obs_id": "2026W21_1A_0468_1",
+   "collection": "spherex_qr3",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 0.782,
+   "noisy": false
+  },
+  {
+   "i": 43,
+   "file": "f043.png",
+   "resid": "r043.png",
+   "t": "2026-05-27T15:33:46Z",
+   "mjd": 61187.648451,
+   "obs_id": "2026W22_1A_0417_1",
+   "collection": "spherex_qr3",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 44,
+   "file": "f044.png",
+   "resid": "r044.png",
+   "t": "2026-05-27T15:35:55Z",
+   "mjd": 61187.649943,
+   "obs_id": "2026W22_1A_0417_2",
+   "collection": "spherex_qr3",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 45,
+   "file": "f045.png",
+   "resid": "r045.png",
+   "t": "2026-05-27T15:38:05Z",
+   "mjd": 61187.651454,
+   "obs_id": "2026W22_1A_0417_3",
+   "collection": "spherex_qr3",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  },
+  {
+   "i": 46,
+   "file": "f046.png",
+   "resid": "r046.png",
+   "t": "2026-05-27T15:40:14Z",
+   "mjd": 61187.652945,
+   "obs_id": "2026W22_1A_0417_4",
+   "collection": "spherex_qr3",
+   "um": [
+    0.746,
+    1.117
+   ],
+   "cover": 1.0,
+   "noisy": false
+  }
+ ],
+ "tracklets": [
+  {
+   "frames": [
+    31,
+    32,
+    33
+   ],
+   "x": [
+    101.0,
+    100.82,
+    100.98
+   ],
+   "y": [
+    86.97,
+    86.16,
+    86.87
+   ],
+   "snr": [
+    5.3,
+    6.7,
+    7.5
+   ],
+   "rate_arcsec_h": 8.6,
+   "rms_px": 0.37,
+   "mjd_mid": 61007.77368516666,
+   "known": null,
+   "kind": "mover",
+   "id": 1
+  }
+ ],
+ "known": [
+  {
+   "name": "2000 EL133",
+   "vmag": 20.1,
+   "cls": "MB>Outer",
+   "pos": {
+    "0": [
+     79.25,
+     82.39
+    ],
+    "1": [
+     79.22,
+     82.41
+    ],
+    "2": [
+     79.19,
+     82.43
+    ],
+    "3": [
+     79.16,
+     82.45
+    ],
+    "4": [
+     77.95,
+     83.27
+    ],
+    "5": [
+     77.92,
+     83.29
+    ],
+    "6": [
+     77.89,
+     83.31
+    ],
+    "7": [
+     77.86,
+     83.33
+    ]
+   },
+   "snr": {
+    "0": 2.3,
+    "1": 1.7,
+    "2": 2.1,
+    "3": 3.0,
+    "4": 1.1,
+    "5": 12.7,
+    "6": 2.4,
+    "7": 1.1
+   },
+   "recovered": false
+  },
+  {
+   "name": "1997 WE19",
+   "vmag": 21.0,
+   "cls": "MB>Inner",
+   "pos": {
+    "12": [
+     80.91,
+     18.13
+    ],
+    "13": [
+     80.7,
+     18.25
+    ],
+    "14": [
+     52.13,
+     33.8
+    ],
+    "15": [
+     51.92,
+     33.92
+    ],
+    "16": [
+     23.06,
+     49.61
+    ],
+    "17": [
+     13.69,
+     54.7
+    ]
+   },
+   "snr": {
+    "12": 2.9,
+    "13": 2.9,
+    "14": 1.6,
+    "15": 3.7,
+    "16": 1.9,
+    "17": 0.7
+   },
+   "recovered": false
+  },
+  {
+   "name": "Irvine",
+   "vmag": 18.3,
+   "cls": "MB>Inner",
+   "pos": {
+    "12": [
+     69.32,
+     108.03
+    ],
+    "13": [
+     69.07,
+     108.16
+    ]
+   },
+   "snr": {
+    "12": 6.4,
+    "13": 4.5
+   },
+   "recovered": true
+  },
+  {
+   "name": "1998 HB73",
+   "vmag": 20.2,
+   "cls": "MB>Middle",
+   "pos": {
+    "16": [
+     117.59,
+     104.18
+    ],
+    "17": [
+     108.79,
+     108.58
+    ]
+   },
+   "snr": {
+    "17": 0.9
+   },
+   "recovered": false
+  },
+  {
+   "name": "1999 CV116",
+   "vmag": 20.7,
+   "cls": "MB>Middle",
+   "pos": {
+    "18": [
+     96.17,
+     48.84
+    ]
+   },
+   "snr": {
+    "18": 2.1
+   },
+   "recovered": false
+  },
+  {
+   "name": "1996 TY64",
+   "vmag": 20.7,
+   "cls": "MB>Middle",
+   "pos": {
+    "19": [
+     80.31,
+     115.97
+    ],
+    "20": [
+     80.04,
+     116.08
+    ],
+    "21": [
+     79.78,
+     116.19
+    ],
+    "22": [
+     79.51,
+     116.3
+    ]
+   },
+   "snr": {},
+   "recovered": false
+  },
+  {
+   "name": "DiNovis",
+   "vmag": 20.2,
+   "cls": "MB>Inner",
+   "pos": {
+    "19": [
+     97.37,
+     117.92
+    ]
+   },
+   "snr": {},
+   "recovered": false
+  },
+  {
+   "name": "2001 QE14",
+   "vmag": 19.9,
+   "cls": "MB>Outer",
+   "pos": {
+    "31": [
+     84.27,
+     98.31
+    ],
+    "32": [
+     84.11,
+     98.37
+    ],
+    "33": [
+     83.96,
+     98.44
+    ],
+    "34": [
+     83.8,
+     98.5
+    ]
+   },
+   "snr": {
+    "31": 2.8,
+    "32": 1.0,
+    "33": 1.2,
+    "34": 2.0
+   },
+   "recovered": false
+  },
+  {
+   "name": "2002 WB12",
+   "vmag": 20.6,
+   "cls": "MB>Inner",
+   "pos": {
+    "35": [
+     56.52,
+     66.62
+    ],
+    "36": [
+     56.21,
+     66.67
+    ],
+    "37": [
+     14.08,
+     72.55
+    ]
+   },
+   "snr": {
+    "35": 1.5,
+    "36": 1.0,
+    "37": 1.7
+   },
+   "recovered": false
+  },
+  {
+   "name": "2001 RB81",
+   "vmag": 20.2,
+   "cls": "MB>Middle",
+   "pos": {
+    "35": [
+     85.21,
+     21.54
+    ],
+    "36": [
+     85.01,
+     21.59
+    ],
+    "37": [
+     57.29,
+     28.25
+    ]
+   },
+   "snr": {
+    "35": 1.4,
+    "36": 0.9,
+    "37": 3.0
+   },
+   "recovered": false
+  },
+  {
+   "name": "Adamsmith",
+   "vmag": 18.7,
+   "cls": "MB>Outer",
+   "pos": {
+    "35": [
+     -1.06,
+     59.29
+    ],
+    "36": [
+     -1.23,
+     59.36
+    ]
+   },
+   "snr": {},
+   "recovered": false
+  },
+  {
+   "name": "2004 GN40",
+   "vmag": 20.8,
+   "cls": "MB>Outer",
+   "pos": {
+    "38": [
+     25.65,
+     44.69
+    ],
+    "39": [
+     25.53,
+     44.74
+    ],
+    "40": [
+     25.42,
+     44.79
+    ],
+    "41": [
+     25.3,
+     44.84
+    ]
+   },
+   "snr": {
+    "38": 3.1,
+    "39": 1.0,
+    "40": 2.3,
+    "41": 0.8
+   },
+   "recovered": false
+  },
+  {
+   "name": "Walstein",
+   "vmag": 20.1,
+   "cls": "MB>Middle",
+   "pos": {
+    "38": [
+     14.26,
+     8.74
+    ],
+    "39": [
+     14.17,
+     8.76
+    ],
+    "40": [
+     14.09,
+     8.78
+    ],
+    "41": [
+     14.01,
+     8.8
+    ]
+   },
+   "snr": {
+    "38": 2.7,
+    "39": 1.3,
+    "40": 1.8,
+    "41": 11702.2
+   },
+   "recovered": false
+  },
+  {
+   "name": "1999 GG",
+   "vmag": 19.9,
+   "cls": "MB>Outer",
+   "pos": {
+    "42": [
+     47.44,
+     -0.83
+    ]
+   },
+   "snr": {},
+   "recovered": false
+  },
+  {
+   "name": "2003 AW75",
+   "vmag": 21.0,
+   "cls": "MB>Middle",
+   "pos": {
+    "42": [
+     99.67,
+     9.22
+    ]
+   },
+   "snr": {
+    "42": 1.4
+   },
+   "recovered": false
+  },
+  {
+   "name": "Lexell",
+   "vmag": 17.2,
+   "cls": "MB>Inner",
+   "pos": {
+    "42": [
+     111.82,
+     95.71
+    ]
+   },
+   "snr": {
+    "42": 18.6
+   },
+   "recovered": true
+  },
+  {
+   "name": "Rosa-Brusin",
+   "vmag": 18.6,
+   "cls": "MB>Outer",
+   "pos": {
+    "43": [
+     92.13,
+     110.82
+    ],
+    "44": [
+     92.0,
+     110.86
+    ],
+    "45": [
+     91.87,
+     110.91
+    ],
+    "46": [
+     91.74,
+     110.96
+    ]
+   },
+   "snr": {
+    "43": 5.0,
+    "44": 6.0,
+    "45": 5.6,
+    "46": 4.0
+   },
+   "recovered": true
+  },
+  {
+   "name": "2005 UC349",
+   "vmag": 20.9,
+   "cls": "MB>Middle",
+   "pos": {
+    "43": [
+     116.83,
+     105.44
+    ],
+    "44": [
+     116.67,
+     105.54
+    ],
+    "45": [
+     116.51,
+     105.64
+    ],
+    "46": [
+     116.35,
+     105.74
+    ]
+   },
+   "snr": {},
+   "recovered": false
+  }
+ ]
+}

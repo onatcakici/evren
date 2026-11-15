@@ -1,0 +1,47 @@
+[
+ {
+  "id": "pluto2025",
+  "name": "Pluto, October 2025",
+  "note": "Clyde Tombaugh found Pluto in 1930 by blinking two photographs taken six days apart. SPHEREx caught it again in October 2025. Press Play and watch one dot drift across the stars.",
+  "band": "D1",
+  "frames": 38,
+  "tracklets": 6,
+  "unknown": 0
+ },
+ {
+  "id": "pluto2026",
+  "name": "Pluto, April 2026",
+  "note": "Six months later SPHEREx came back. Pluto had moved about four degrees east, and over these three days it crawls across a new patch of stars.",
+  "band": "D1",
+  "frames": 38,
+  "tracklets": 2,
+  "unknown": 0
+ },
+ {
+  "id": "ecl160",
+  "name": "Ecliptic field in Leo",
+  "note": "A patch of the ecliptic, the plane where most asteroids travel. 47 SPHEREx exposures from May 2025 to May 2026.",
+  "band": "D1",
+  "frames": 47,
+  "tracklets": 1,
+  "unknown": 1
+ },
+ {
+  "id": "ecl200",
+  "name": "Ecliptic field in Virgo",
+  "note": "Another patch of the ecliptic, on the far side of the sky from the Leo field.",
+  "band": "D1",
+  "frames": 56,
+  "tracklets": 8,
+  "unknown": 0
+ },
+ {
+  "id": "ecl040",
+  "name": "Ecliptic field in Aries",
+  "note": "A third patch of the ecliptic, where the autumn sky crosses the asteroid belt.",
+  "band": "D1",
+  "frames": 57,
+  "tracklets": 0,
+  "unknown": 0
+ }
+]

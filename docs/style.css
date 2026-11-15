@@ -34,6 +34,12 @@ button.on { border-color: var(--accent); color: #fff; }
 .top nav a { color: var(--muted); text-decoration: none; }
 .top nav a:hover { color: var(--text); }
 
+.hero { max-width: 1172px; margin: 30px auto 0; padding: 0 28px; }
+.hero h1 { font-size: 30px; line-height: 1.2; font-weight: 650; margin: 0 0 10px; }
+.lede { color: #cfd3d8; max-width: 780px; margin: 0 0 8px; }
+.stats { color: var(--muted); margin: 0; min-height: 1.5em; }
+.stats b { color: var(--text); font-weight: 600; }
+
 .layout {
   display: grid; grid-template-columns: minmax(0, 700px) minmax(300px, 380px);
   gap: 36px; padding: 28px; justify-content: center;

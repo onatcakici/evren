@@ -38,20 +38,43 @@
       return;
     }
     const sel = $('field');
+    const groups = new Map();
     for (const t of S.targets) {
+      const g = t.group || 'Fields';
+      if (!groups.has(g)) {
+        const og = document.createElement('optgroup');
+        og.label = g;
+        groups.set(g, og);
+        sel.appendChild(og);
+      }
       const o = document.createElement('option');
       o.value = t.id;
       o.textContent = t.name;
-      sel.appendChild(o);
+      groups.get(g).appendChild(o);
     }
     sel.addEventListener('change', () => loadField(sel.value));
     const want = location.hash.slice(1);
+    summarize();
     await loadField(S.targets.some((t) => t.id === want) ? want : S.targets[0].id);
+  }
+
+  const metaCache = {};
+  const getMeta = (id) => (metaCache[id] ||= fetch(`data/${id}/meta.json`).then((r) => r.json()));
+
+  // One honest line of totals across every field on the site.
+  async function summarize() {
+    const metas = await Promise.all(S.targets.map((t) => getMeta(t.id)));
+    const frames = metas.reduce((a, m) => a + m.frames.length, 0);
+    const plutoVisits = metas.reduce((a, m) => a + m.tracklets.filter((t) => /pluto/i.test(t.known || '')).length, 0);
+    const known = new Set();
+    metas.forEach((m) => m.known.forEach((e) => { if (e.recovered && !/pluto/i.test(e.name)) known.add(e.name); }));
+    $('stats').innerHTML = `Searched <b>${frames}</b> SPHEREx frames in ${metas.length} fields. ` +
+      `Pluto detected in <b>${plutoVisits}</b> separate visits. <b>${known.size}</b> known asteroids recovered where their orbits put them.`;
   }
 
   async function loadField(id) {
     stopAll();
-    const meta = await (await fetch(`data/${id}/meta.json`)).json();
+    const meta = await getMeta(id);
     const base = `data/${id}/`;
     const total = meta.frames.length * 2 + 1;
     let done = 0;

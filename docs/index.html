@@ -8,7 +8,7 @@
 <meta property="og:title" content="Evren: a blink comparator for NASA SPHEREx">
 <meta property="og:description" content="Tombaugh's Pluto method, run on a 2025 space telescope.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%230b0d10'/%3E%3Ccircle cx='16' cy='16' r='4' fill='%23ff5a1f'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="style.css?v=5">
+<link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
 <header class="top">
@@ -75,6 +75,14 @@
   </aside>
 </main>
 
+<section class="about" id="spectrum" data-src="data/spectra/pluto/spectrum.json" data-bands="0.89,1.16,1.33,1.72,2.32,3.32" data-band-label="methane ice">
+  <h2>What Pluto is made of</h2>
+  <p>SPHEREx does more than take pictures: every pixel sees its own color of infrared light. So each exposure that catches Pluto measures one point of its spectrum. Evren measured Pluto in 72 exposures on 2 of SPHEREx's six detectors, subtracted the same spot on other days to remove the stars behind it, and divided out the color of sunlight.</p>
+  <p>The dips are methane ice on Pluto's surface. At 3.3 microns Pluto reflects only about 4 percent of the light it reflects near 1 micron. Astronomers first detected methane on Pluto in 1976. Evren found its fingerprint again in raw SPHEREx images.</p>
+  <div class="spec-chart">Loading the spectrum</div>
+  <div class="spec-stamps"></div>
+</section>
+
 <section id="about" class="about">
   <h2>How it works</h2>
   <p>In 1930 Clyde Tombaugh found Pluto by flipping between two photographs of the same stars taken days apart. Stars stay put. Anything that jumps is moving. Evren does the same with SPHEREx, the NASA space telescope that maps the whole sky in 102 infrared colors every six months.</p>
@@ -91,5 +99,6 @@
 </section>
 
 <script src="app.js?v=5"></script>
+<script src="spectrum.js?v=1"></script>
 </body>
 </html>

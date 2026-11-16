@@ -1,3 +1,4 @@
+// Evren viewer. Code written with help from an AI assistant.
 (() => {
   const $ = (id) => document.getElementById(id);
   const cv = $('sky');

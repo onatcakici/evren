@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Evren: a blink comparator for NASA SPHEREx.
+Code written with help from an AI assistant.
 
 For one patch of sky this script:
   1. finds every SPHEREx Level 2 spectral image that covers it (IRSA SIA2),
@@ -8,7 +9,7 @@ For one patch of sky this script:
   3. aligns all frames on one north up grid using each image's own WCS,
   4. builds a median "static sky" and subtracts it from every frame,
   5. finds what changed, links detections into tracklets,
-  6. checks tracklets against JPL's known small bodies (SB Ident API),
+  6. checks tracklets against known small bodies (IMCCE SkyBoT, optionally JPL SB Ident),
   7. writes PNG frames and a meta.json for the web viewer.
 
 Example:

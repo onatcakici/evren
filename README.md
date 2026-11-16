@@ -45,3 +45,4 @@ To find the SPHEREx frames that contain a moving solar system object (this is ho
 * Known asteroids and comets: IMCCE SkyBoT.
 * Ephemerides used to locate Pluto: JPL Horizons.
 * Built with Python, NumPy, Astropy, SciPy and Pillow.
+* Code written with help from an AI assistant.
